@@ -1,0 +1,45 @@
+form {
+  /* display: flex; */
+  /* flex-direction: column; */
+  background-color: white;
+  width: 20vw;
+  border-radius: 8px;
+  border-style: solid;
+  border-width: thin;
+  padding: 30px;
+  margin: auto;
+  margin-top: 10vh;
+  box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+form h1 {
+  font-weight: bold;
+  text-align: center;
+}
+
+.fields {
+  outline: none;
+  padding: 8px;
+  border-radius: 8px;
+  /* border-color: blue; */
+  margin-top: 2.5vh;
+  width: 100%;
+  border-width: thin;
+}
+
+#button {
+  margin-top: 2vh;
+  border-radius: 8px;
+  padding: 8px;
+  width: 100%;
+  background-color: #7e15c4;
+  color: white;
+  font-weight: bold;
+  border-width: thin;
+}
+#create{
+  text-align: center;
+}
+

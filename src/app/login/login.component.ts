@@ -49,4 +49,19 @@ export class LoginComponent {
 
 		return "test";
 	}
+
+	showPassword() {
+		let pswInput = document.getElementById(
+			"password-field",
+		) as HTMLInputElement;
+		let button = document.getElementById("password-button");
+    console.log(button)
+		if (pswInput.type === "password") {
+			pswInput.type = "text";
+			button?.classList.add("checked");
+		} else {
+			pswInput.type = "password";
+			button?.classList.remove("checked");
+		}
+	}
 }

@@ -10,6 +10,7 @@
   />
   <br />
   <input
+    id="password-field"
     class="fields"
     type="password"
     name="password"
@@ -22,14 +23,14 @@
 
   <div style="margin-top: 2vh">
     <label for="isShow">Mostrar senha</label>
-    <input
-      style="margin-left: 4px"
-      type="checkbox"
-      name=""
-      value="isShow"
-      placeholder=""
-      onclick="showPassword()"
-    />
+    <!-- <input -->
+    <!--   style="margin-left: 4px" -->
+    <!--   type="checkbox" -->
+    <!--   name="" -->
+    <!--   value="isShow" -->
+    <!--   placeholder="" -->
+    <!-- /> -->
+    <button id="password-button" (click)="showPassword()"><img src="../../assets/imgs/checkmark-icon.png" style="height: 0.6rem; width: 0.6rem;" alt=""></button>
     <a style="float: right">Esqueceu a senha?</a>
     <br />
     <label for="isRemember">Lembrar</label>

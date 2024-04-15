@@ -39,7 +39,27 @@ form h1 {
   font-weight: bold;
   border-width: thin;
 }
-#create{
+
+#create {
   text-align: center;
 }
 
+#password-button {
+  color: white;
+  outline: none;
+  border: 0.5px solid black;
+  margin-left: 4px;
+  vertical-align: center;
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 3px;
+}
+
+.checked {
+  background-color: #406cff;
+  border: none;
+}
+
+.unchecked {
+  background-color: white;
+}
